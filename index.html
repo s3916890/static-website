@@ -1,0 +1,159 @@
+<!--
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2022A
+    Assignment: Static Website
+    Author: Nguyen Phuc Loi (s3916890)
+    Link Website: 
+        + Home: https://s3916890.github.io/cv-home/#
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online CV</title>
+</head>
+<body>
+    <main class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <nav class="navigation-bar">
+                <ul class="list">
+                    <li class="list__item">
+                        <a href="#" class="list__item--link">Home</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#" class="list__item--link">About me</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./blog.html" class="list__item--link">Blog</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./contact.html"  class="list__item--link">Contact</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./project.html" class="list__item--link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="portfolio">
+            <div class="portfolio__avatar">
+                <img src="./assets/avatar.png" alt="avatar" class="avatar-img">
+            </div>
+            <!-- Personal Information -->
+            <div id="portfolio-information">
+                <h2>Personal Information</h2>
+                <ul>
+                    <li>Name: Nguyen Phuc Loi</li>
+                    <li>Date of Birth: 27/10/2000</li>
+                    <li>Nationality: Vietnamese</li>
+                </ul>
+            </div>
+    
+            <!-- Education -->
+            <div id="portfolio-education">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                    <th>Degree/Certificate</th>
+                    <th>Graduation Year</th>
+                    <th>University</th>
+                    </tr>
+                    <tr>
+                    <td>Bachelor of IT</td>
+                    <td>2024</td>
+                    <td>RMIT University</td>
+                    </tr>
+                    <tr>
+                    <td>Master Degree of Computer Science</td>
+                    <td>2028</td>
+                    <td>VSB Technical University</td>
+                    </tr>
+                </table>
+            </div>
+    
+            <!-- Experience -->
+            <div id="portfolio-experience">
+                <h2>Experience</h2>
+                <div class="job-description">
+                    <h3>Google</h3>
+                    <h4 class="job-title">Front-End developer</h4>
+                    <h5 class="job-duration">October 2020 - Now</h5>
+                    <ul>
+                        <li>Using the figma to cut HTML</li>
+                        <li>Interact with API and working something on back-end platform</li>
+                    </ul>
+                </div>
+                <div class="job-description">
+                    <h3>Realtor</h3>
+                    <h4 class="job-title">Software Engineer</h4>
+                    <h5 class="job-duration">June 2024 - May 2030</h5>
+                    <ul>
+                        <li>Developed real estate valuation, analytics, and platform technology
+                            solutions as part of a 5-person team.
+                        </li>
+                        <li>
+                            Designed and developed Zestimate, which manages a volume of
+                            600k+ valuations per month.
+                        </li>
+                        <li>
+                            Reduced average valuation review time by 46%, and saved service
+                            providers an average of 84% due to click-fee reductions.
+                        </li>
+                        <li>
+                            Rebuilt 4-year-old Saas application in React 15 and Redux with full
+                            user experience redesign to release a beta MVP in 8 months.
+                        </li>
+                        <li>
+                            Integrated an automated property valuation model fed by machine
+                            learning Python data.
+                        </li>
+                        <li>
+                            Created non-technical descriptions of operations and workflow to
+                            enable non-coding team to function with minimal interruption.
+                        </li>
+                    </ul>
+                </div>
+                <div class="job-description">
+                    <h3>FPT</h3>
+                    <h4 class="job-title">Software Engineering</h4>
+                    <h5 class="job-duration">January 2019 - March 2022</h5>
+                    <ul>
+                        <li>
+                            Developed membership, event, and legal platform technology
+                            solutions, and automated internal processes.
+                        </li>
+                        <li>
+                            Generated $50K+ in annual ad revenue as a system administrator
+                            of a large network of websites.
+                        </li>
+                        <li>
+                            Designed and implemented web applications along with 3rd-party
+                            software integrations as a web team liaison for all inter-
+                            departmental and customer-facing projects.
+                        </li>
+                        <li>
+                            Developed a node.js server to validate membership and track
+                            digital badges being used, saving the company $22.5K.
+                        </li>
+                        <li>
+                            Mentored 6 team members, enabling them to achieve professional
+                            growth and personal goals.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <p><i>s3916890@rmit.edu.vn</i> &copy;2022 Online CV</p>
+        </footer>
+    </main>    
+</body>
+</html>
+
+

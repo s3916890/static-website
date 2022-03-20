@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact With Me</title>
+</head>
+<body>
+    <main class="container">
+        <!-- HEADER NAVIGATION -->
+        <header class="header">
+            <nav class="navigation-bar">
+                <ul class="list">
+                    <li class="list__item">
+                        <a target="_blank" href="./index.html" class="list__item--link">Home</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./index.html" class="list__item--link">About me</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./blog.html" class="list__item--link">Blog</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#"  class="list__item--link">Contact</a>
+                    </li>
+                    <li class="list__item">
+                        <a target="_blank" href="./project.html" class="list__item--link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="form-container">
+            <h2>Contact Me</h2>
+            <p>Please fill this form</p>
+            <form method="post" action="" target="_blank" id="form" class="form">
+                <label for="">Name</label><br>
+                <input id="input__name" class="input" type="text" placeholder="Enter your name" required name="Name"><br>
+
+                <label for="">Email</label><br>
+                <input id="input__name" class="input" type="text" placeholder="Enter your email" required name="Email"><br>
+
+                <label for="">Phone</label><br>
+                <input id="input__name" class="input" type="text" placeholder="Enter your phone" required name="phone"><br>
+
+                <label for="">School</label><br>
+                <input id="input__name" class="input" type="text" placeholder="Enter your school" required name="school">
+
+                <br>
+                <br>
+
+                <label for="">City/Country</label>
+                <br>
+                <select>
+                    <option value="hcm">Ho Chi Minh</option>
+                    <option value="hn">Ha noi</option>
+                    <option value="hp">Hai Phong</option>
+                    <option value="ct">Can Tho</option>
+                    <option value="tg">Tien Giang</option>
+                    <option value="vt">Vung Tau</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="">Purpose contact</label>
+                <br>
+                <select>
+                    <option value="hcm">Business</option>
+                    <option value="hn">Others</option>
+                </select>
+                <br>
+                <br>
+
+
+                <label for="">Description</label><br>
+                <textarea rows="5" cols="50" name="description" form="form" placeholder="Type here"></textarea>           
+                <br> 
+                <button class="btn" type="submit">SEND</button>
+            </form>
+        </div>
+
+        <footer>
+            <p><i>s3916890@rmit.edu.vn</i> &copy;2022 Online CV</p>
+        </footer>
+    </main>
+</body>
+</html>
